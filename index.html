@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Krysopée</title>
+<meta name="description" content="Krysopée — maison indépendante autour du capital, de la stratégie patrimoniale et de la transmission.">
+<link rel="canonical" href="https://krysopee.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://krysopee.com/">
+<meta property="og:title" content="Krysopée">
+<meta property="og:description" content="Choisissez votre porte d'entrée.">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Krysopée">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&family=Space+Mono:wght@400&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+body.vestibule {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-height: 100vh; padding: 3rem 1.5rem; text-align: center;
+}
+.marque-vestibule {
+  font-family: 'Crimson Pro', serif;
+  font-size: clamp(2.2rem, 5vw, 3rem);
+  font-style: italic; font-weight: 300;
+  color: var(--k-ivory); margin: 0;
+}
+.devise-vestibule {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--or-2); margin: 0.9rem 0 3.5rem;
+}
+.intro-vestibule {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--gris-chaud); margin-bottom: 3rem;
+}
+.portes { display: flex; gap: 1.75rem; width: 100%; max-width: 760px; }
+.porte {
+  flex: 1; padding: 3rem 1.75rem;
+  border: 1px solid var(--bord-pale); background: var(--k-bg-2);
+  text-decoration: none; color: var(--k-ivory);
+  transition: border-color 0.3s, background 0.3s, transform 0.3s;
+  display: flex; flex-direction: column; align-items: center;
+}
+.porte:hover { border-color: var(--or); background: rgba(200,180,122,0.05); transform: translateY(-3px); }
+.porte-symbole { font-size: 1.6rem; color: var(--or); margin-bottom: 1.5rem; }
+.porte-eyebrow {
+  font-family: 'Poppins', sans-serif; font-size: 0.6rem; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--or-2); margin-bottom: 0.9rem;
+}
+.porte-titre { font-family: 'Crimson Pro', serif; font-size: 1.5rem; font-style: italic; font-weight: 300; margin: 0 0 1rem; }
+.porte-desc {
+  font-family: 'Poppins', sans-serif; font-size: 0.82rem; line-height: 1.7;
+  color: var(--gris-chaud); max-width: 260px;
+}
+.porte-entrer {
+  margin-top: 1.75rem; font-family: 'Poppins', sans-serif; font-size: 0.6rem;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--or);
+  border-bottom: 1px solid var(--bord-pale); padding-bottom: 2px;
+}
+@media (max-width: 640px) { .portes { flex-direction: column; } }
+</style>
+</head>
+<body class="vestibule">
+
+<h1 class="marque-vestibule">Krysopée</h1>
+<p class="devise-vestibule">Nemini Teneri</p>
+<p class="intro-vestibule">Choisissez votre porte d'entrée</p>
+
+<div class="portes">
+  <a href="conseil.html" class="porte">
+    <span class="porte-symbole">☿</span>
+    <span class="porte-eyebrow">Conseil</span>
+    <span class="porte-titre">Stratégie patrimoniale</span>
+    <span class="porte-desc">Diagnostic, vision d'ensemble, proposition de stratégie — pour qui veut comprendre avant d'agir.</span>
+    <span class="porte-entrer">Entrer →</span>
+  </a>
+  <a href="https://krysopee.capital" class="porte" target="_blank" rel="noopener">
+    <span class="porte-symbole">☉</span>
+    <span class="porte-eyebrow">Capital</span>
+    <span class="porte-titre">Trading &amp; Publications</span>
+    <span class="porte-desc">Krysalide, Parcours Opus Magnum, Praxis — la méthode et le compte propre.</span>
+    <span class="porte-entrer">Entrer →</span>
+  </a>
+</div>
+
+<p style="margin-top:3rem; font-family:'Poppins',sans-serif; font-size:0.55rem; letter-spacing:0.1em; text-transform:uppercase;">
+  <a href="mentions-legales.html" style="color:var(--gris-chaud); text-decoration:none; margin:0 0.6rem;">Mentions légales</a>
+  <a href="confidentialite.html" style="color:var(--gris-chaud); text-decoration:none; margin:0 0.6rem;">Confidentialité</a>
+</p>
+
+</body>
+</html>
