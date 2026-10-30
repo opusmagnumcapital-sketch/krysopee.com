@@ -3,15 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Krysopée · Stratégie patrimoniale, méthode &amp; transmission</title>
-<meta name="description" content="Maison indépendante autour du capital : conseil en stratégie patrimoniale sans commission, méthode de marché sur compte propre et transmission. Nemini Teneri.">
+<title>Krysopée · Conseil en pause</title>
+<meta name="description" content="Le conseil en stratégie patrimoniale de Krysopée est en pause. Le travail de la maison se poursuit sur krysopee.capital.">
 <link rel="canonical" href="https://krysopee.com/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://krysopee.com/">
-<meta property="og:title" content="Krysopée — Comprendre avant d'agir">
-<meta property="og:image" content="https://krysopee.capital/logo-bandeau.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta property="og:description" content="Choisissez votre porte d'entrée : conseil patrimonial ou méthode de marché.">
+<meta property="og:title" content="Krysopée — Conseil en pause">
+<meta property="og:description" content="Le conseil en stratégie patrimoniale de Krysopée est en pause.">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:site_name" content="Krysopée">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,93 +22,41 @@ body.vestibule {
   min-height: 100vh; padding: 3rem 1.5rem; text-align: center;
 }
 .marque-vestibule {
-  font-family: 'Crimson Pro', serif;
-  font-size: clamp(2.2rem, 5vw, 3rem);
-  font-style: italic; font-weight: 300;
-  color: var(--k-ivory); margin: 0;
+  font-family: 'Crimson Pro', serif; font-size: clamp(2.2rem, 5vw, 3rem);
+  font-style: italic; font-weight: 300; color: var(--k-ivory); margin: 0 0 3rem;
 }
-.devise-vestibule {
-  font-family: 'Space Mono', monospace;
-  font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase;
-  color: var(--or-2); margin: 0.9rem 0 3.5rem;
-}
-.intro-vestibule {
-  font-family: 'Poppins', sans-serif;
-  font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase;
-  color: var(--gris-chaud); margin-bottom: 3rem;
-}
-.portes { display: flex; gap: 1.75rem; width: 100%; max-width: 760px; }
-.porte {
-  flex: 1; padding: 3rem 1.75rem;
-  border: 1px solid var(--bord-pale); background: var(--k-bg-2);
-  text-decoration: none; color: var(--k-ivory);
-  transition: border-color 0.3s, background 0.3s, transform 0.3s;
-  display: flex; flex-direction: column; align-items: center;
-}
-.porte:hover { border-color: var(--or); background: rgba(200,180,122,0.05); transform: translateY(-3px); }
-.porte-symbole { font-size: 1.6rem; color: var(--or); margin-bottom: 1.5rem; }
-.porte-eyebrow {
-  font-family: 'Poppins', sans-serif; font-size: 0.6rem; letter-spacing: 0.18em;
-  text-transform: uppercase; color: var(--or-2); margin-bottom: 0.9rem;
-}
-.porte-titre { font-family: 'Crimson Pro', serif; font-size: 1.5rem; font-style: italic; font-weight: 300; margin: 0 0 1rem; }
-.porte-desc {
-  font-family: 'Poppins', sans-serif; font-size: 0.82rem; line-height: 1.7;
-  color: var(--gris-chaud); max-width: 260px;
-}
-.porte-entrer {
-  margin-top: 1.75rem; font-family: 'Poppins', sans-serif; font-size: 0.6rem;
-  letter-spacing: 0.16em; text-transform: uppercase; color: var(--or);
-  border-bottom: 1px solid var(--bord-pale); padding-bottom: 2px;
-}
-.devise-vestibule { margin-bottom: 2.5rem; }
 .accroche-vestibule {
   font-family: 'Crimson Pro', serif; font-style: italic; font-weight: 300;
   font-size: clamp(1.35rem, 3vw, 1.7rem); line-height: 1.35;
-  color: var(--k-ivory); max-width: 640px; margin: 0 0 1.25rem;
+  color: var(--k-ivory); max-width: 640px; margin: 0 0 1.5rem;
 }
 .texte-vestibule {
-  font-family: 'Poppins', sans-serif; font-size: 0.82rem; line-height: 1.8;
-  color: var(--gris-chaud); max-width: 600px; margin: 0 0 3rem;
+  font-family: 'Poppins', sans-serif; font-size: 0.86rem; line-height: 1.8;
+  color: var(--gris-chaud); max-width: 600px; margin: 0 0 1.25rem;
 }
+.texte-vestibule a { color: var(--or); text-decoration: none; border-bottom: 1px solid var(--bord-pale); }
+.texte-vestibule a:hover { border-bottom-color: var(--or); }
 .mention-vestibule {
   font-family: 'Poppins', sans-serif; font-size: 0.66rem; line-height: 1.7;
-  color: var(--gris-chaud); max-width: 560px; margin: 3rem 0 0; font-style: italic;
+  color: var(--gris-chaud); max-width: 560px; margin: 2.5rem 0 0; font-style: italic;
 }
-@media (max-width: 640px) { .portes { flex-direction: column; } }
+.pied-vestibule {
+  margin-top: 1.5rem; font-family: 'Poppins', sans-serif; font-size: 0.55rem;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--gris-chaud);
+}
+.pied-vestibule a { color: var(--gris-chaud); text-decoration: none; margin: 0 0.6rem; }
 </style>
 </head>
 <body class="vestibule">
 
 <h1 class="marque-vestibule">Krysopée</h1>
-<p class="devise-vestibule">Nemini Teneri</p>
-<h2 class="accroche-vestibule">Deux pratiques, une seule exigence : la structure avant la décision.</h2>
-<p class="texte-vestibule">Krysopée est une maison indépendante qui réunit deux manières de servir le capital. D'un côté, le conseil en stratégie patrimoniale : un diagnostic, une vision d'ensemble, une stratégie, sans produit à vendre ni commission. De l'autre, un travail de marché mené sur capital propre, dont la méthode se publie et se transmet. Une même discipline les relie : comprendre avant d'agir, protéger avant de convaincre.</p>
-<p class="intro-vestibule">Choisissez votre porte d'entrée</p>
+<h2 class="accroche-vestibule">Le conseil en stratégie patrimoniale est en pause.</h2>
+<p class="texte-vestibule">Krysopée a suspendu son activité de conseil pour une durée indéterminée. Aucune nouvelle mission n'est acceptée et le formulaire de contact est fermé.</p>
+<p class="texte-vestibule">Le travail de la maison se poursuit sur compte propre, avec la méthode et la transmission présentées sur <a href="https://krysopee.capital">krysopee.capital</a>.</p>
 
-<div class="portes">
-  <a href="conseil.html" class="porte">
-    <span class="porte-symbole">☿</span>
-    <span class="porte-eyebrow">Conseil</span>
-    <span class="porte-titre">Stratégie patrimoniale</span>
-    <span class="porte-desc">Diagnostic, vision d'ensemble, proposition de stratégie — pour qui veut comprendre avant d'agir.</span>
-    <span class="porte-entrer">Entrer →</span>
-  </a>
-  <a href="https://krysopee.capital" class="porte" target="_blank" rel="noopener">
-    <span class="porte-symbole">☉</span>
-    <span class="porte-eyebrow">Capital</span>
-    <span class="porte-titre">Méthode, compte propre &amp; transmission</span>
-    <span class="porte-desc">Krysalide, Parcours Opus Magnum, Praxis — le compte propre, les publications, la transmission.</span>
-    <span class="porte-entrer">Entrer →</span>
-  </a>
-</div>
+<p class="mention-vestibule">Krysopée n'est pas conseiller en investissements financiers. Ce site ne constitue ni une recommandation personnalisée ni une incitation à réaliser des opérations de marché.</p>
 
-<p class="mention-vestibule">Krysopée n'est pas conseiller en investissements financiers. Aucun contenu de ce site ne constitue une recommandation personnalisée ni une incitation à réaliser des opérations de marché.</p>
-
-<p style="margin-top:1.5rem; font-family:'Poppins',sans-serif; font-size:0.55rem; letter-spacing:0.1em; text-transform:uppercase;">
-  <a href="mentions-legales.html" style="color:var(--gris-chaud); text-decoration:none; margin:0 0.6rem;">Mentions légales</a>
-  <a href="confidentialite.html" style="color:var(--gris-chaud); text-decoration:none; margin:0 0.6rem;">Confidentialité</a>
-</p>
+<p class="pied-vestibule">Nemini Teneri · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></p>
 
 </body>
 </html>
